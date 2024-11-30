@@ -1,0 +1,42 @@
+name: App
+description: "App-Movil LogiMarket"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.1
+  http: ^1.0.0
+  carousel_slider: ^5.0.0
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/gato.png
+    - assets/gato2.png
+    - assets/producto.png
+    - assets/logos/backus.png
+    - assets/logos/gloria.png
+    - assets/logos/laive.png
+    - assets/logos/san jorge.png
+    - assets/promos/promocion.png
+    - assets/promos/descuento.png
+    - assets/categorias/lacteos.png
+    - assets/categorias/snacks.png
+    - assets/categorias/aseo.png
+    - assets/categorias/gaseosas.png
+    - assets/titulos/bienvenido.png
+    - assets/titulos/register.png
